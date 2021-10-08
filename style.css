@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #123123;
+}
+
+#container {
+  height: 50vh;
+  width: 50vh;
+}
+
+#container input {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  font-size: 24px;
+  padding: 0 4px;
+  background-color: black;
+  color:white;
+}
+
+#results {
+  list-style: none;
+  color:white;
+}
+
+h3 {
+  text-decoration: underline;
+  color:white;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+p {
+  color: white;
+  padding: 16px;
+  margin: 0 auto;
+}
